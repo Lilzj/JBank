@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JBankUI", "BankingSystem\JBankUI.csproj", "{AE7B43A8-B09C-4CD0-B12A-FD088C0E7B39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JBank.Lib.Common", "JBank.Lib.Common\JBank.Lib.Common.csproj", "{3A1AC66D-14EC-4F09-B5BE-7A9693B03288}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JBank.Lib.Core", "JBank.Lib.Core\JBank.Lib.Core.csproj", "{EE18246D-4312-4BE0-9A1F-F73A326938C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JBank.Lib.Data", "JBank.Lib.Data\JBank.Lib.Data.csproj", "{4FA0FEC4-DE14-4313-B04A-09730A93D0AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JBank.Lib.Model", "JBank.Lib.Model\JBank.Lib.Model.csproj", "{47C0A318-FA80-4DE3-A896-D8C26C682C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBank.Lib.CoreTests", "JBank.Lib.CoreTests\JBank.Lib.CoreTests.csproj", "{CE80CD7F-FF8B-488D-96E8-A0B41E3201F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE7B43A8-B09C-4CD0-B12A-FD088C0E7B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7B43A8-B09C-4CD0-B12A-FD088C0E7B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7B43A8-B09C-4CD0-B12A-FD088C0E7B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7B43A8-B09C-4CD0-B12A-FD088C0E7B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1AC66D-14EC-4F09-B5BE-7A9693B03288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1AC66D-14EC-4F09-B5BE-7A9693B03288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1AC66D-14EC-4F09-B5BE-7A9693B03288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1AC66D-14EC-4F09-B5BE-7A9693B03288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE18246D-4312-4BE0-9A1F-F73A326938C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE18246D-4312-4BE0-9A1F-F73A326938C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE18246D-4312-4BE0-9A1F-F73A326938C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE18246D-4312-4BE0-9A1F-F73A326938C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA0FEC4-DE14-4313-B04A-09730A93D0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA0FEC4-DE14-4313-B04A-09730A93D0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA0FEC4-DE14-4313-B04A-09730A93D0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA0FEC4-DE14-4313-B04A-09730A93D0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C0A318-FA80-4DE3-A896-D8C26C682C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C0A318-FA80-4DE3-A896-D8C26C682C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C0A318-FA80-4DE3-A896-D8C26C682C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C0A318-FA80-4DE3-A896-D8C26C682C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE80CD7F-FF8B-488D-96E8-A0B41E3201F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE80CD7F-FF8B-488D-96E8-A0B41E3201F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE80CD7F-FF8B-488D-96E8-A0B41E3201F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE80CD7F-FF8B-488D-96E8-A0B41E3201F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D1CCD8E-3CA4-44FD-B08F-053EFAA3E265}
+	EndGlobalSection
+EndGlobal

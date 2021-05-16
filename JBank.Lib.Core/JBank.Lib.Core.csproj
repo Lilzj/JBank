@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JBank.Lib.Common\JBank.Lib.Common.csproj" />
+    <ProjectReference Include="..\JBank.Lib.Data\JBank.Lib.Data.csproj" />
+    <ProjectReference Include="..\JBank.Lib.Model\JBank.Lib.Model.csproj" />
+  </ItemGroup>
+
+</Project>
